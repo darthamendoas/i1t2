@@ -2,8 +2,7 @@ turma = [('Ana', 20), ('Bruno', 22)]
 
 print(('Bruno',22) in turma)
 
-alunos=[('Marcelo',67),('João',42)]
-turma.append(alunos)
+turma.append(('Marcelo',67),('João',42))
 
 print(len(turma))
 
